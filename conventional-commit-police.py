@@ -9,7 +9,7 @@ commit_message = commit_message_file.read().strip()
 
 if re.search(regex, commit_message) is None:
     print("""
-        It's the Conventional Commit police!!!
+        It's the Conventional Commit Police!!!
         You are under arrest!
         Please follow the rules: https://www.conventionalcommits.org/en/v1.0.0/
     """)
