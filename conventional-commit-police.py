@@ -11,7 +11,12 @@ if re.search(regex, commit_message) is None:
     print("""
         It's the Conventional Commit Police!!!
         You are under arrest!
-        Please follow the rules: https://www.conventionalcommits.org/en/v1.0.0/
+        Please follow the rules: http://href.prezi.com/ccp
+
+        Example commit message:
+        fix(authentication): refresh session cookie for paywalls
+
+        Available categories: feat, fix, docs, style, refactor, test, chore
     """)
     sys.exit(1)
 
