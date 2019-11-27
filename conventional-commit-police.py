@@ -2,7 +2,7 @@
 import sys, re
 
 
-regex = "(feat|fix|docs|style|refactor|test|chore)(.*):(.+)"
+regex = "(feat|fix|docs|style|refactor|test|chore)(\(.*\))?:(.+)"
 
 commit_message_file = open(sys.argv[1]) #The first argument is the file
 commit_message = commit_message_file.read().strip()
