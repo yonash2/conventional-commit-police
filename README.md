@@ -25,9 +25,14 @@ git init
 
 git commit -m "Doing shady commits...."
 
-        It's the Conventional Commit police!!!
+        It's the Conventional Commit Police!!!
         You are under arrest!
-        Please follow the rules: https://www.conventionalcommits.org
+        Please follow the rules: http://href.prezi.com/ccp
+
+        Example commit message:
+        fix(authentication): refresh session cookie for paywalls
+
+        Available categories: feat, fix, docs, style, refactor, test, chore
 
 git commit -m "fix(behaviour): Fixed my outliar mentality, following the rules from now on"
 Inspection finished, you are free to go now.
